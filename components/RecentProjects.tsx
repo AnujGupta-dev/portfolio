@@ -1,17 +1,15 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-
+import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
     <div className="py-20">
-      <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
-      </h1>
+    <TextGenerateEffect  className="text-center text-[40px] md:text-5xl lg:text-6xl" words='A small selection of recent projects' />
+      
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div
