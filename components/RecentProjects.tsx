@@ -7,7 +7,7 @@ import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
     <TextGenerateEffect  className="text-center text-[40px] md:text-5xl lg:text-6xl" words='A small selection of recent projects' />
       
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
